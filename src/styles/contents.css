@@ -176,3 +176,60 @@ p.lead {
   background-color: #102145 !important;
   box-shadow: rgb(0 0 0 / 20%) 0px 60px 40px -7px;
 }
+
+.blog-item {
+  overflow: hidden;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: white;
+}
+.blog-item:hover {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(-10px);
+}
+.blog-item .thumb {
+  position: relative;
+  overflow: hidden;
+}
+.blog-item .thumb img {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.blog-item .thumb:hover img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.blog-item .category {
+  background: #ff4c60;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: #fff;
+  font-size: 14px;
+  padding: 2px 8px;
+  position: absolute;
+  left: 20px;
+  top: 0;
+  z-index: 1;
+}
+.blog-item .details {
+  padding: 20px;
+}
+
+.blog-item .details h4.title a:hover {
+  color: #ff4c60;
+}
+
+.details h4 a {
+  color: white !important;
+  font-family: "Poppins", sans-serif;
+}

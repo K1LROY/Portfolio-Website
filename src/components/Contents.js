@@ -214,6 +214,84 @@ export default function Contents() {
           </div>
         </div>
       </div>
+
+      <div id="blog">
+        <div class="container space-section">
+          <h2 class="section-title wow fadeInUp">Latest Posts</h2>
+
+          <div class="spacer" data-height="60"></div>
+
+          <div class="row blog-wrapper mt-5">
+            <div class="col-md-4">
+              <div class="blog-item rounded bg-dark shadow-dark wow fadeIn">
+                <div class="thumb">
+                  <Link to="#">
+                    <span class="category">Reviews</span>
+                  </Link>
+                  <Link to="#">
+                    <img src="images/1.svg" alt="blog-title" />
+                  </Link>
+                </div>
+                <div class="details">
+                  <h4 class="my-0 title">
+                    <Link to="#">
+                      5 Best App Development Tool for Your Project
+                    </Link>
+                  </h4>
+                  <ul class="list-inline meta mb-0 mt-2">
+                    <li class="list-inline-item">09 February, 2020</li>
+                    <li class="list-inline-item">Dolby</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="blog-item rounded bg-dark shadow-dark wow fadeIn">
+                <div class="thumb">
+                  <Link to="#">
+                    <span class="category">Tutorial</span>
+                  </Link>
+                  <Link to="#">
+                    <img src="images/2.svg" alt="blog-title" />
+                  </Link>
+                </div>
+                <div class="details">
+                  <h4 class="my-0 title">
+                    <Link to="#">Common Misconceptions About Payment</Link>
+                  </h4>
+                  <ul class="list-inline meta mb-0 mt-2">
+                    <li class="list-inline-item">07 February, 2020</li>
+                    <li class="list-inline-item">Dolby</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="blog-item rounded bg-dark shadow-dark wow fadeIn">
+                <div class="thumb">
+                  <Link to="#">
+                    <span class="category">Business</span>
+                  </Link>
+                  <Link to="#">
+                    <img src="images/3.svg" alt="blog-title" />
+                  </Link>
+                </div>
+                <div class="details">
+                  <h4 class="my-0 title">
+                    <Link to="#">3 Things To Know About Startup Business</Link>
+                  </h4>
+                  <ul class="list-inline meta mb-0 mt-2">
+                    <li class="list-inline-item">06 February, 2020</li>
+                    <li class="list-inline-item">Dolby</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
