@@ -2,6 +2,17 @@ import React from "react";
 import "../styles/header.css";
 import { NavLink } from "react-router-dom";
 
+import $ from "jquery";
+
+$(document).ready(function () {
+  $(".nav-icon").click(function () {
+    $(".full-nav").addClass("open");
+  });
+  $(".nav-close").click(function () {
+    $(".full-nav").removeClass("open");
+  });
+});
+
 export default function Header() {
   return (
     <div>
@@ -33,6 +44,11 @@ export default function Header() {
               <NavLink to="#contact">contact</NavLink>
             </li>
           </ul>
+          <NavLink className="nav-icon" to="#">
+            <span></span>
+            <span></span>
+            <span></span>
+          </NavLink>
         </nav>
 
         <div class="bg-video wow fadeInUp" data-wow-delay="1s" id="vid">
@@ -47,6 +63,65 @@ export default function Header() {
           </video>
         </div>
       </header>
+
+      <div className="full-nav">
+        <div className="logo">
+          <NavLink to="#">
+            <img src="logo2.png" alt="" />
+          </NavLink>
+        </div>
+        <nav className="nav2">
+          <ul>
+            <li>
+              <NavLink to="#">
+                <span>01. </span>Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="#">
+                <span>02. </span>Features
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="#">
+                <span>03. </span>Team
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="#">
+                <span>04. </span>Work
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="#">
+                <span>05. </span>Pricing
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="#">
+                <span>06. </span>Client
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="#">
+                <span>07. </span>Blog
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="#">
+                <span>08. </span>Contact
+              </NavLink>
+            </li>
+          </ul>
+        </nav>
+
+        <div className="corner-circle">
+          <NavLink className="nav-close" to="#" style={{ cursor: "pointer" }}>
+            <span></span>
+            <span></span>
+          </NavLink>
+        </div>
+      </div>
     </div>
   );
 }
