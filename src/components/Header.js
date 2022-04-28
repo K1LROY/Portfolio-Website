@@ -34,6 +34,18 @@ export default function Header() {
             </li>
           </ul>
         </nav>
+
+        <div class="bg-video wow fadeInUp" data-wow-delay="1s" id="vid">
+          <video
+            playsinline="playsinline"
+            autoplay="autoplay"
+            muted="muted"
+            loop="loop"
+            id="heroVideo"
+          >
+            <source src="king-kong.mp4" type="video/mp4" class="" />
+          </video>
+        </div>
       </header>
     </div>
   );
