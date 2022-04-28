@@ -9,28 +9,25 @@ export default function Contents() {
     <div>
       <Element id="contents">
         <div id="about-us">
-          <div className="container">
-            <div className="row">
+          <div className="container ">
+            <div className="row ">
               <div className="col text-center">
                 <h3 className="wow fadeInDown">New Features</h3>
-                <p className="lead wow fadeInUp">
-                  THE STUNNING POSSIBILITIES OF THE THEME
-                </p>
-                <br />
-                <br />
-                <div id="one" className="carousel slide">
-                  <div className="carousel-inner">
-                    <div className="carousel-item active">
-                      <div className="row">
-                        <div className="col-md px-md-5">
-                          <div className="text-dark pb-3">
-                            <i className="fa fa-shield fa-5x"></i>
+                <div
+                  id="carouselExampleIndicators"
+                  class="carousel slide mt-5"
+                  data-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="row">
+                        <div class="col-md px-md-5">
+                          <div class="text-dark pb-3">
+                            <i class="fa fa-shield fa-5x"></i>
                           </div>
-                          <h4 className="text-dark">
-                            WPML MULTI-LANGUAGE SUPPORT
-                          </h4>
-                          <br />
-                          <p className="text-secondary">
+                          <h4 class="text-dark">WPML MULTI-LANGUAGE SUPPORT</h4>
+
+                          <p class="text-secondary">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Phasellus dictum enim diam, at condimentum
                             purus facilisis in. Aenean convallis tempor nulla,
@@ -38,15 +35,13 @@ export default function Contents() {
                             ante vitae pretium.
                           </p>
                         </div>
-                        <div className="col-md px-md-5">
-                          <div className="text-dark pb-3">
-                            <i className="fa fa-cog fa-5x"></i>
+                        <div class="col-md px-md-5">
+                          <div class="text-dark pb-3">
+                            <i class="fa fa-cog fa-5x"></i>
                           </div>
-                          <h4 className="text-dark">
-                            FULLY CUSTOMIZABLE THEME
-                          </h4>
-                          <br />
-                          <p className="text-secondary">
+                          <h4 class="text-dark"> FULLY CUSTOMIZABLE THEME </h4>
+
+                          <p class="text-secondary">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Phasellus dictum enim diam, at condimentum
                             purus facilisis in. Aenean convallis tempor nulla,
@@ -54,15 +49,105 @@ export default function Contents() {
                             ante vitae pretium.
                           </p>
                         </div>
-                        <div className="col-md px-md-5">
-                          <div className="text-dark pb-3">
-                            <i className="fa fa-bolt fa-5x"></i>
+                        <div class="col-md px-md-5">
+                          <div class="text-dark pb-3">
+                            <i class="fa fa-bolt fa-5x"></i>
                           </div>
-                          <h4 className="text-dark">
-                            STUNNING UPDATE VERSION 7.0
-                          </h4>
-                          <br />
-                          <p className="text-secondary">
+                          <h4 class="text-dark">STUNNING UPDATE VERSION 7.0</h4>
+
+                          <p class="text-secondary">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Phasellus dictum enim diam, at condimentum
+                            purus facilisis in. Aenean convallis tempor nulla,
+                            in elementum odio ornare vitae. In faucibus tempus
+                            ante vitae pretium.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-md px-md-5">
+                          <div class="text-dark pb-3">
+                            <i class="fa fa-shield fa-5x"></i>
+                          </div>
+                          <h4 class="text-dark">WPML MULTI-LANGUAGE SUPPORT</h4>
+
+                          <p class="text-secondary">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Phasellus dictum enim diam, at condimentum
+                            purus facilisis in. Aenean convallis tempor nulla,
+                            in elementum odio ornare vitae. In faucibus tempus
+                            ante vitae pretium.
+                          </p>
+                        </div>
+                        <div class="col-md px-md-5">
+                          <div class="text-dark pb-3">
+                            <i class="fa fa-cog fa-5x"></i>
+                          </div>
+                          <h4 class="text-dark"> FULLY CUSTOMIZABLE THEME </h4>
+
+                          <p class="text-secondary">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Phasellus dictum enim diam, at condimentum
+                            purus facilisis in. Aenean convallis tempor nulla,
+                            in elementum odio ornare vitae. In faucibus tempus
+                            ante vitae pretium.
+                          </p>
+                        </div>
+                        <div class="col-md px-md-5">
+                          <div class="text-dark pb-3">
+                            <i class="fa fa-bolt fa-5x"></i>
+                          </div>
+                          <h4 class="text-dark">STUNNING UPDATE VERSION 7.0</h4>
+
+                          <p class="text-secondary">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Phasellus dictum enim diam, at condimentum
+                            purus facilisis in. Aenean convallis tempor nulla,
+                            in elementum odio ornare vitae. In faucibus tempus
+                            ante vitae pretium.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-md px-md-5">
+                          <div class="text-dark pb-3">
+                            <i class="fa fa-shield fa-5x"></i>
+                          </div>
+                          <h4 class="text-dark">WPML MULTI-LANGUAGE SUPPORT</h4>
+
+                          <p class="text-secondary">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Phasellus dictum enim diam, at condimentum
+                            purus facilisis in. Aenean convallis tempor nulla,
+                            in elementum odio ornare vitae. In faucibus tempus
+                            ante vitae pretium.
+                          </p>
+                        </div>
+                        <div class="col px-md-5">
+                          <div class="text-dark pb-3">
+                            <i class="fa fa-cog fa-5x"></i>
+                          </div>
+                          <h4 class="text-dark"> FULLY CUSTOMIZABLE THEME </h4>
+
+                          <p class="text-secondary">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Phasellus dictum enim diam, at condimentum
+                            purus facilisis in. Aenean convallis tempor nulla,
+                            in elementum odio ornare vitae. In faucibus tempus
+                            ante vitae pretium.
+                          </p>
+                        </div>
+                        <div class="col-md px-md-5">
+                          <div class="text-dark pb-3">
+                            <i class="fa fa-bolt fa-5x"></i>
+                          </div>
+                          <h4 class="text-dark">STUNNING UPDATE VERSION 7.0</h4>
+
+                          <p class="text-secondary">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Phasellus dictum enim diam, at condimentum
                             purus facilisis in. Aenean convallis tempor nulla,
@@ -73,6 +158,45 @@ export default function Contents() {
                       </div>
                     </div>
                   </div>
+                  <ol class="carousel-indicators">
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="0"
+                      class="active"
+                    ></li>
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="1"
+                    ></li>
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="2"
+                    ></li>
+                  </ol>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-target="#carouselExampleIndicators"
+                    data-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-target="#carouselExampleIndicators"
+                    data-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Next</span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -306,7 +430,7 @@ export default function Contents() {
               <div class="contact-info">
                 <h3 class="wow fadeInUp">Let's talk about everything!</h3>
                 <p class="wow fadeInUp text-white">
-                  Don't like forms? Send me an{" "}
+                  Don't like forms? Send me an
                   <a href="mailto:kwandee1992@gmail.com">email</a>. 👋
                 </p>
               </div>
