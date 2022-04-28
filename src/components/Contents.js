@@ -77,6 +77,49 @@ export default function Contents() {
           </div>
         </div>
       </div>
+
+      <div id="services">
+        <div class="container space-section">
+          <h2 class="section-title wow fadeInUp">Recently Added Projects</h2>
+
+          <div class="spacer" data-height="60"></div>
+
+          <div class="row mt-5">
+            <div class="col-md-4">
+              <div class="service-box rounded  padding-30 text-center  shadow-blue">
+                <img src="images/service-1.svg" alt="" />
+                <h3>UI/UX design</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean
+                  commodo ligula eget.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="service-box rounded padding-30 text-center shadow-yellow">
+                <img src="images/service-2.svg" alt="" />
+                <h3>Web Dev+</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean
+                  commodo ligula eget.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="service-box rounded  padding-30 text-center  shadow-pink">
+                <img src="images/service-3.svg" alt="UI/UX design" />
+                <h3>Photography</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean
+                  commodo ligula eget.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
