@@ -120,6 +120,100 @@ export default function Contents() {
           </div>
         </div>
       </div>
+
+      <div id="experience">
+        <div className="container space-section">
+          <h2 className="section-title wow fadeInUp">Experience</h2>
+          <div className="row mt-5">
+            <div className="col-md-6">
+              <div className="timeline bg-dark rounded padding-30">
+                <div className="timeline-container wow fadeInUp">
+                  <div className="content">
+                    <span className="time">2019 - Present</span>
+                    <h3 className="title">
+                      <i className="ion-aperture"></i>
+                      Academic Degree
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet quo ei simul congue exerci ad
+                      nec admodum perfecto.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="timeline-container">
+                  <div className="content">
+                    <span className="time">2017 - 2013</span>
+                    <h3 className="title">
+                      <i className="ion-grid"></i> Bachelor’s Degree
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet quo ei simul congue exerci ad
+                      nec admodum perfecto.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="timeline-container">
+                  <div className="content">
+                    <span className="time">2013 - 2009</span>
+                    <h3 className="title">
+                      <i className="ion-clock"></i> Honours Degree
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet quo ei simul congue exerci ad
+                      nec admodum perfecto.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-6">
+              <div className="timeline bg-dark rounded shadow-dark padding-30">
+                <div className="timeline-container">
+                  <div className="content">
+                    <span className="time">2019 - Present</span>
+                    <h3 className="title">
+                      <i className="ion-compass"></i> Web Designer
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet quo ei simul congue exerci ad
+                      nec admodum perfecto.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="timeline-container">
+                  <div className="content">
+                    <span className="time">2017 - 2013</span>
+                    <h3 className="title">
+                      <i className="ion-bag"></i> Front-End Developer
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet quo ei simul congue exerci ad
+                      nec admodum perfecto.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="timeline-container">
+                  <div className="content">
+                    <span className="time">2013 - 2009</span>
+                    <h3 className="title">
+                      <i className="ion-monitor"></i> Back-End Developer
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet quo ei simul congue exerci ad
+                      nec admodum perfecto.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

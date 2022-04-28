@@ -127,3 +127,52 @@ p.lead {
 .rounded {
   border-radius: 20px !important;
 }
+
+.timeline {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+
+.timeline .timeline-container {
+  padding: 22px;
+  margin-bottom: 50px;
+  position: relative;
+  background-color: inherit;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+.timeline .timeline-container:last-of-type {
+  margin-bottom: 0;
+}
+
+.ion-aperture {
+  font-size: 30px;
+  margin-top: 40px !important;
+}
+
+.timeline .content {
+  position: relative;
+}
+
+.timeline .content .time {
+  color: #8b88b1;
+  font-size: 14px;
+}
+
+.timeline .content h3 {
+  font-size: 26px;
+  margin: 10px 0;
+}
+
+.timeline .content p {
+  margin: 0;
+  color: white;
+}
+
+.timeline.edu .timeline-container::after {
+  background: #302f4e;
+}
+.bg-dark {
+  background-color: #102145 !important;
+  box-shadow: rgb(0 0 0 / 20%) 0px 60px 40px -7px;
+}
