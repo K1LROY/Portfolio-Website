@@ -1,0 +1,62 @@
+#contents {
+  margin-top: -430px;
+}
+
+#about-us h3 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 31px;
+  font-weight: 600;
+  color: #fff !important;
+}
+
+p.lead {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.space-section {
+  margin-top: 120px;
+}
+
+.space-end {
+  margin-bottom: 100px;
+}
+
+.text-dark {
+  font-family: "Oswald", sans-serif;
+  font-size: 21px;
+  color: white !important;
+}
+
+.text-secondary {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #fff !important;
+}
+
+#about-us .carousel-indicators {
+  position: static;
+  padding-top: 30px;
+}
+
+#about-us .carousel-indicators li {
+  background-color: #fff;
+  width: 12px;
+  height: 12px;
+  margin-left: 5px;
+}
+
+#about-us .carousel-control-next,
+#about-us .carousel-control-prev {
+  width: auto;
+}
+
+#about-us .carousel-control-next {
+  right: -35px;
+}
+
+#about-us .carousel-control-prev {
+  left: -35px;
+}
