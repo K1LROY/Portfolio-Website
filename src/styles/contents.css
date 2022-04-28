@@ -325,3 +325,13 @@ p.lead {
   padding: 12px 32px;
   position: relative;
 }
+
+.carousel-control-prev-icon {
+  background-image: url(../../public/left-arrow.png);
+  padding: 25px;
+}
+
+.carousel-control-next-icon {
+  background-image: url(../../public/right-arrow.png);
+  padding: 25px;
+}
