@@ -1,0 +1,116 @@
+/* /Header */
+
+/* Navigation */
+
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: 20px 30px;
+  position: absolute;
+  transition: all 0.3s;
+  background-image: linear-gradient(315deg, #ffffff 0%, #a5e4b0 74%);
+  z-index: 9;
+  top: 0px;
+  width: 100%;
+}
+
+video {
+  width: 100%;
+}
+
+.nav.sticky {
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+  animation-name: animationFade;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav ul li {
+  display: flex;
+}
+
+.nav ul li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
+  color: #333;
+  padding: 0.25rem 0;
+  margin: 0 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.nav ul li a:hover {
+  text-decoration: none;
+}
+.nav.sticky a {
+  color: #18191d;
+}
+
+.nav ul li.logo a {
+  margin: 0 3rem;
+}
+
+.nav ul li.logo .white {
+  display: inline-block;
+}
+
+.nav ul li.logo .black {
+  display: none;
+}
+
+.nav.sticky ul li.logo .white {
+  display: none;
+}
+
+.nav.sticky ul li.logo .black {
+  display: inline-block;
+}
+
+.nav-icon {
+  position: absolute;
+  top: 27px;
+  right: 30px;
+  padding: 5px;
+  width: 40px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.nav-icon span {
+  background: #333;
+  width: 30px;
+  height: 1px;
+  display: block;
+}
+
+.nav.sticky .nav-icon span {
+  background: #18191d;
+}
+
+.nav-icon span {
+  transition: 300ms linear all;
+}
+
+.nav-icon span:nth-child(1),
+.nav-icon span:nth-child(3) {
+  width: 20px;
+  margin: 0 auto;
+}
+
+.nav-icon:hover span:nth-child(1),
+.nav-icon:hover span:nth-child(3) {
+  width: 30px;
+}
+
+.nav-icon span:nth-child(2) {
+  margin: 5px 0;
+}
