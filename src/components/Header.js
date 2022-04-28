@@ -11,6 +11,15 @@ $(document).ready(function () {
   $(".nav-close").click(function () {
     $(".full-nav").removeClass("open");
   });
+
+  $(window).scroll(function () {
+    var sc = $(window).scrollTop();
+    if (sc > 100) {
+      $(".nav").addClass("sticky");
+    } else {
+      $(".nav").removeClass("sticky");
+    }
+  });
 });
 
 export default function Header() {
