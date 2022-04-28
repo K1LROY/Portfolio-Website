@@ -1,11 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Element } from "react-scroll";
+
 import "../styles/contents.css";
 
 export default function Contents() {
   return (
     <div>
-      <div id="contents">
+      <Element id="contents">
         <div id="about-us">
           <div className="container">
             <div className="row">
@@ -76,7 +78,7 @@ export default function Contents() {
             </div>
           </div>
         </div>
-      </div>
+      </Element>
 
       <div id="services">
         <div class="container space-section">

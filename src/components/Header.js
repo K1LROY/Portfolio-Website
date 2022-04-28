@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/header.css";
 import { NavLink } from "react-router-dom";
+import * as Scroll from "react-scroll";
 
 import $ from "jquery";
 
@@ -22,6 +23,8 @@ $(document).ready(function () {
   });
 });
 
+const ScrollLink = Scroll.Link;
+
 export default function Header() {
   return (
     <div>
@@ -32,13 +35,37 @@ export default function Header() {
               <NavLink to="#vid">home</NavLink>
             </li>
             <li>
-              <NavLink to="#contents">features</NavLink>
+              <ScrollLink
+                style={{ cursor: "pointer" }}
+                spy={true}
+                smooth={true}
+                duration={1000}
+                to="contents"
+              >
+                features
+              </ScrollLink>
             </li>
             <li>
-              <NavLink to="#services">Projects</NavLink>
+              <ScrollLink
+                style={{ cursor: "pointer" }}
+                spy={true}
+                smooth={true}
+                duration={1000}
+                to="services"
+              >
+                Projects
+              </ScrollLink>
             </li>
             <li>
-              <NavLink to="#experience">Experiance</NavLink>
+              <ScrollLink
+                style={{ cursor: "pointer" }}
+                spy={true}
+                smooth={true}
+                duration={1000}
+                to="experience"
+              >
+                Experiance
+              </ScrollLink>
             </li>
             <li class="logo">
               <NavLink to="#">
@@ -47,10 +74,26 @@ export default function Header() {
               </NavLink>
             </li>
             <li>
-              <NavLink to="#blog"> blog</NavLink>
+              <ScrollLink
+                style={{ cursor: "pointer" }}
+                spy={true}
+                smooth={true}
+                duration={1000}
+                to="blog"
+              >
+                blog
+              </ScrollLink>
             </li>
             <li>
-              <NavLink to="#contact">contact</NavLink>
+              <ScrollLink
+                style={{ cursor: "pointer" }}
+                spy={true}
+                smooth={true}
+                duration={1000}
+                to="contact"
+              >
+                contact
+              </ScrollLink>
             </li>
           </ul>
           <NavLink className="nav-icon" to="#">
